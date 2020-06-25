@@ -4,7 +4,7 @@ This is a very simple virtusl network function (VNF) that is intended to be a te
 The VNF is a simple "bump in the wire" implementation. The interfaces are in promiscous mode and simple transmit all packets
 received with no changes.
 
-The implementation uses packet mmap to maximize performance but the code ha not been optimized.
+The implementation uses packet mmap to maximize performance but the code has not been optimized.
 
 It can work in either of two modes:
 
